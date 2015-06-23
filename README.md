@@ -5,7 +5,7 @@ Requirements:
 1. Virtualbox
 2. Vagrant
 
-Hot to run:
+How to run:
 
 1. clone this project
 2. go in the desired virtual machine subdir (eg. ubuntu-vivid-64)
