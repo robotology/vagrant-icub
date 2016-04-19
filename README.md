@@ -2,6 +2,7 @@
 Vagrant configurations files to create VirtualBox virtual machine with YARP and iCub-main sources and dependancies.
 
 Requirements:
+
 1. Virtualbox
 2. Vagrant
 
