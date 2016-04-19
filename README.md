@@ -8,5 +8,5 @@ Requirements:
 How to run:
 
 1. clone this project
-2. go in the desired virtual machine subdir (eg. ubuntu-vivid-64)
+2. go in the desired virtual machine subdir (eg. ubuntu-wily-64)
 3. execute "vagrant up"
