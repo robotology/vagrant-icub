@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "debian/wheezy64"
+  config.vm.box = "ubuntu/zesty64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -31,7 +31,7 @@ Vagrant.configure(2) do |config|
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
-  # config.vm.network "public_network", ip: "dhcp"
+  #config.vm.network "public_network"
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
@@ -68,6 +68,5 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
-
-  config.vm.provision "shell", path: "https://git.robotology.eu/mbrunettini/icub-environment/raw/master/scripts/provision_icub_machine.sh", args: "-s -u vagrant"
+  config.vm.provision "shell", path: "https://git.robotology.eu/mbrunettini/icub-environment/raw/master/scripts/provision_icub_machine.sh", args: "-s -u ubuntu"
 end
